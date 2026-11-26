@@ -65,12 +65,11 @@ section[id] { scroll-margin-top: 88px; }
 }
 .hero-stack { display: grid; justify-items: center; gap: clamp(27px, 3.6vw, 48px); }
 .intro { text-align: center; }
-.intro .wordmark { font-size: clamp(3.9rem, 7vw, 6.6rem); line-height: .99; margin: -.1em 0 .19em; }
-.subtitle {
-  max-width: 38ch;
+.project-title {
+  max-width: 940px;
   margin-inline: auto;
-  font: 400 clamp(1.73rem, 3.02vw, 2.9rem)/1.13 var(--serif);
-  letter-spacing: -.048em;
+  font: 700 clamp(1.7rem, 3.1vw, 2.75rem)/1.15 var(--sans);
+  letter-spacing: -.045em;
   text-wrap: balance;
 }
 .authors {
@@ -273,8 +272,6 @@ tbody .ours { background: #e9eeff; color: #172e7c; }
   .navigation nav { justify-content: space-between; flex-wrap: wrap; gap: 4px 8px; min-height: 43px; padding-block: 5px; }
   .navigation nav a { font-size: .78rem; white-space: nowrap; }
   section[id] { scroll-margin-top: 112px; }
-  .intro .wordmark { font-size: clamp(3.75rem, 13vw, 5.5rem); }
-  .subtitle { max-width: 28ch; }
   .authors { gap: 4px 13px; font-size: .96rem; }
   .abstract p { text-align: left; }
   .pair figure { width: 100%; }
